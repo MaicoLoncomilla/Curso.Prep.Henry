@@ -1,0 +1,9 @@
+Prototype: 
+
+Todos los objetos heredan métodos y propiedades de Object.prototype.
+
+Las clases tienen solo una unica forma de establecer un metodo y dar acceso a cada objeto de la clase hacia los metodos.
+
+Constructores o clases:
+
+Podemos crear objetos con sus propiedades, pero realizar esto para cada objeto es ineficiente, pero lo tanto estan los constructores, que nos ayudan a crear un solo "objeto padre" y poder acceder a esas propiedades sin tener que estar creando varios objetos.
