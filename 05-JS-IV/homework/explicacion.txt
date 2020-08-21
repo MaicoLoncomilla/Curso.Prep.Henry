@@ -1,0 +1,55 @@
+
+Objetos: 
+
+Es parecido a una matriz, los objetos pueden contener mucha informacion que esten relacionado sobre una unica cosa, estos objetos pueden tener multiples propiedades.
+Se puede inicializar de la siguiente manera
+
+const objeto {
+    //codigo......
+};
+
+Propiedades:
+
+Estas propiedades contienen una KEY  y un VALUE, donde la key es el identificador y el value es el valor, estas 2 contienen las propiedades:
+se puede inicializar de la siguiente manera:
+
+key:value,
+
+usuario: "Juan", 
+
+Métodos:
+En los objetos, los valores se pueden establecer en funciones, a estas funciones que se guardan en los objetos se denominan Métodos.
+
+podemos llamar a estos métodos de la siguiente manera
+
+.miMetodo();
+
+Bucle `for…in`:
+
+los objetos al no contener indices, no se utilizaria un for(var i = 0; i < condicion; i++){
+
+}
+al no tener los indices para recorrerlo, se utilizara un bucle llamado "for... in loop"
+se ve de la siguiente manera:
+
+for(let clave in usuario){
+
+}
+
+Notación de puntos vs notación de corchetes:
+
+se pueden acceder a las propiedades y/o funciones de un objeto usando un . o los [].
+
+pero estos tienen diferencias por ejemplo:
+
+console.log(Objeto.saludo); //imprime "hola".
+
+console.log(Objeto["saludo"]); // imprime "hola".
+
+a pesar de q es parecido, pueden dar situaciones donde no sea asi. Ejemplo:
+
+console.log(Objeto.numero de patente); // esto produciria un error.
+
+console.log(Objeto["numero de patente"]); //esto seria correcto. 
+
+pueden darte situaciones en los cuales tendras q utilizar uno u otro. 
