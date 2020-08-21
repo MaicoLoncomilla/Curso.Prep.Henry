@@ -1,0 +1,3 @@
+Arrays:
+
+Las arrays son similares a una lista, pueden contener una gran cantidad de variables, esto significa que su longitud puede variar dependiendo de las necesidades. Estas listas pueden cambiar su contenido en cualquier momento, tambien puedes agregar nuevas variables o eliminarlas dependiendo de las necesidades del usuario. 
