@@ -1,0 +1,10 @@
+Callbacks:
+
+es una función que recibe como si fuera un argumento otra funcion para poder ejecutarla. 
+
+Ejemplo:
+
+function ejemplo(Callbacks){
+    //codigo
+    Callbacks;
+}
