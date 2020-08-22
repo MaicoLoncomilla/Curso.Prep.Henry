@@ -1,0 +1,27 @@
+img {
+    width: 400px;  
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+.divP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.thirdDiv {
+    max-height: 600px;
+    max-width: 500px;
+    border-style: double;
+    margin-right: auto;
+    margin-left: auto;
+    background: gray;
+    padding: 50px;
+    display: flex;   
+}
+
+
+
+
