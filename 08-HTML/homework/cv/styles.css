@@ -1,0 +1,45 @@
+.DivP{
+    width: 60%;
+    margin: auto;
+    border: solid 2px;
+    padding: 20px;
+    background: #C2E0F2;
+    
+}
+.DivP fieldset ul ul li{
+    font-size: 16px;
+}
+
+#Div{
+    display: flex;
+}
+#Img{
+    float: right;
+    width: 130px;
+    margin-top: -20px;
+}
+#h2-cv{
+    text-align: center;
+}
+legend{
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bolder;
+    border-color: #0000c5;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #a6daea;
+    font-size: 18px;
+
+}
+fieldset{
+    border-color: #0000c5;
+}
+p{
+    line-height: 25px;
+    font-size: 16px;
+}
+body{
+    background: gray;
+}
